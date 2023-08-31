@@ -7,20 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB36C2D42A9F29C6000AD28B /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2D32A9F29C6000AD28B /* Extenstions.swift */; };
+		DB36C2D62A9F5A76000AD28B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2D52A9F5A75000AD28B /* HomeView.swift */; };
+		DB36C2D82A9F99DF000AD28B /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2D72A9F99DF000AD28B /* HomeTabView.swift */; };
+		DB36C2DA2A9FAA61000AD28B /* ImageSliderTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2D92A9FAA61000AD28B /* ImageSliderTabItemView.swift */; };
+		DB36C2DC2A9FB7D3000AD28B /* HomeTabViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2DB2A9FB7D3000AD28B /* HomeTabViewViewModel.swift */; };
+		DB36C2DE2A9FB842000AD28B /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2DD2A9FB842000AD28B /* ShopItem.swift */; };
+		DB36C2E02A9FC43C000AD28B /* ShopItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2DF2A9FC43C000AD28B /* ShopItemView.swift */; };
+		DB36C2E22A9FCE72000AD28B /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2E12A9FCE72000AD28B /* Merchant.swift */; };
+		DB36C2E42A9FCEB4000AD28B /* MerchantItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2E32A9FCEB4000AD28B /* MerchantItemView.swift */; };
+		DB36C2E62AA02AE8000AD28B /* LocationSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2E52AA02AE8000AD28B /* LocationSelectorView.swift */; };
+		DB36C2E82AA02C8D000AD28B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2E72AA02C8D000AD28B /* Location.swift */; };
+		DB36C2EA2AA02D7E000AD28B /* FilterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2E92AA02D7E000AD28B /* FilterCardView.swift */; };
+		DB36C2EC2AA02E31000AD28B /* FilterCardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2EB2AA02E31000AD28B /* FilterCardItemView.swift */; };
 		DB4A74E92A91FB7A004EDF2B /* CCCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A74E82A91FB7A004EDF2B /* CCCApp.swift */; };
-		DB4A74EB2A91FB7A004EDF2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A74EA2A91FB7A004EDF2B /* ContentView.swift */; };
+		DB4A74EB2A91FB7A004EDF2B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A74EA2A91FB7A004EDF2B /* MainView.swift */; };
 		DB4A74ED2A91FB7C004EDF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4A74EC2A91FB7C004EDF2B /* Assets.xcassets */; };
 		DB4A74F02A91FB7C004EDF2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4A74EF2A91FB7C004EDF2B /* Preview Assets.xcassets */; };
 		DB4A74F72A91FEB4004EDF2B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4A74F62A91FEB4004EDF2B /* Launch Screen.storyboard */; };
+		DB4A74FE2A924E34004EDF2B /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4A74FD2A924E34004EDF2B /* Barlow-Regular.ttf */; };
+		DB4A75002A924E52004EDF2B /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4A74FF2A924E52004EDF2B /* Barlow-Medium.ttf */; };
+		DB4A75022A924E6F004EDF2B /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4A75012A924E6F004EDF2B /* Barlow-Bold.ttf */; };
+		DB4A75042A924E85004EDF2B /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4A75032A924E85004EDF2B /* Barlow-SemiBold.ttf */; };
+		DB4A75062A924EBA004EDF2B /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4A75052A924EBA004EDF2B /* Barlow-Light.ttf */; };
+		DB4A750B2A9277AD004EDF2B /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A750A2A9277AD004EDF2B /* MainButton.swift */; };
+		DB4A750D2A938AA0004EDF2B /* WelcomeTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A750C2A938AA0004EDF2B /* WelcomeTabItemView.swift */; };
+		DB4A750F2A93B9B3004EDF2B /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A750E2A93B9B3004EDF2B /* MainViewViewModel.swift */; };
+		DB4A75112A93F968004EDF2B /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A75102A93F968004EDF2B /* NotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB36C2D32A9F29C6000AD28B /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		DB36C2D52A9F5A75000AD28B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB36C2D72A9F99DF000AD28B /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		DB36C2D92A9FAA61000AD28B /* ImageSliderTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderTabItemView.swift; sourceTree = "<group>"; };
+		DB36C2DB2A9FB7D3000AD28B /* HomeTabViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewViewModel.swift; sourceTree = "<group>"; };
+		DB36C2DD2A9FB842000AD28B /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		DB36C2DF2A9FC43C000AD28B /* ShopItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemView.swift; sourceTree = "<group>"; };
+		DB36C2E12A9FCE72000AD28B /* Merchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
+		DB36C2E32A9FCEB4000AD28B /* MerchantItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantItemView.swift; sourceTree = "<group>"; };
+		DB36C2E52AA02AE8000AD28B /* LocationSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectorView.swift; sourceTree = "<group>"; };
+		DB36C2E72AA02C8D000AD28B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		DB36C2E92AA02D7E000AD28B /* FilterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCardView.swift; sourceTree = "<group>"; };
+		DB36C2EB2AA02E31000AD28B /* FilterCardItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCardItemView.swift; sourceTree = "<group>"; };
 		DB4A74E52A91FB7A004EDF2B /* CCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4A74E82A91FB7A004EDF2B /* CCCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCCApp.swift; sourceTree = "<group>"; };
-		DB4A74EA2A91FB7A004EDF2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB4A74EA2A91FB7A004EDF2B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DB4A74EC2A91FB7C004EDF2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4A74EF2A91FB7C004EDF2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB4A74F62A91FEB4004EDF2B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DB4A74FD2A924E34004EDF2B /* Barlow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Regular.ttf"; sourceTree = "<group>"; };
+		DB4A74FF2A924E52004EDF2B /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		DB4A75012A924E6F004EDF2B /* Barlow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Bold.ttf"; sourceTree = "<group>"; };
+		DB4A75032A924E85004EDF2B /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBold.ttf"; sourceTree = "<group>"; };
+		DB4A75052A924EBA004EDF2B /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
+		DB4A75092A92750A004EDF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DB4A750A2A9277AD004EDF2B /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		DB4A750C2A938AA0004EDF2B /* WelcomeTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTabItemView.swift; sourceTree = "<group>"; };
+		DB4A750E2A93B9B3004EDF2B /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		DB4A75102A93F968004EDF2B /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +98,11 @@
 		DB4A74E72A91FB7A004EDF2B /* CCC */ = {
 			isa = PBXGroup;
 			children = (
-				DB4A74F62A91FEB4004EDF2B /* Launch Screen.storyboard */,
-				DB4A74E82A91FB7A004EDF2B /* CCCApp.swift */,
-				DB4A74EA2A91FB7A004EDF2B /* ContentView.swift */,
-				DB4A74EC2A91FB7C004EDF2B /* Assets.xcassets */,
+				DB4A75092A92750A004EDF2B /* Info.plist */,
+				DB4A74F82A92119D004EDF2B /* Others */,
+				DB4A74F92A9211A6004EDF2B /* Models */,
+				DB4A74FB2A9211B7004EDF2B /* ViewModels */,
+				DB4A74FA2A9211AE004EDF2B /* Views */,
 				DB4A74EE2A91FB7C004EDF2B /* Preview Content */,
 			);
 			path = CCC;
@@ -68,6 +114,68 @@
 				DB4A74EF2A91FB7C004EDF2B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB4A74F82A92119D004EDF2B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				DB4A74FC2A92438C004EDF2B /* Fonts */,
+				DB4A74E82A91FB7A004EDF2B /* CCCApp.swift */,
+				DB4A74F62A91FEB4004EDF2B /* Launch Screen.storyboard */,
+				DB4A74EC2A91FB7C004EDF2B /* Assets.xcassets */,
+				DB36C2D32A9F29C6000AD28B /* Extenstions.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		DB4A74F92A9211A6004EDF2B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB36C2DD2A9FB842000AD28B /* ShopItem.swift */,
+				DB36C2E12A9FCE72000AD28B /* Merchant.swift */,
+				DB36C2E72AA02C8D000AD28B /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB4A74FA2A9211AE004EDF2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB4A74EA2A91FB7A004EDF2B /* MainView.swift */,
+				DB4A750A2A9277AD004EDF2B /* MainButton.swift */,
+				DB4A750C2A938AA0004EDF2B /* WelcomeTabItemView.swift */,
+				DB4A75102A93F968004EDF2B /* NotificationView.swift */,
+				DB36C2D52A9F5A75000AD28B /* HomeView.swift */,
+				DB36C2D72A9F99DF000AD28B /* HomeTabView.swift */,
+				DB36C2D92A9FAA61000AD28B /* ImageSliderTabItemView.swift */,
+				DB36C2DF2A9FC43C000AD28B /* ShopItemView.swift */,
+				DB36C2E32A9FCEB4000AD28B /* MerchantItemView.swift */,
+				DB36C2E52AA02AE8000AD28B /* LocationSelectorView.swift */,
+				DB36C2E92AA02D7E000AD28B /* FilterCardView.swift */,
+				DB36C2EB2AA02E31000AD28B /* FilterCardItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB4A74FB2A9211B7004EDF2B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB4A750E2A93B9B3004EDF2B /* MainViewViewModel.swift */,
+				DB36C2DB2A9FB7D3000AD28B /* HomeTabViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DB4A74FC2A92438C004EDF2B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB4A75032A924E85004EDF2B /* Barlow-SemiBold.ttf */,
+				DB4A75052A924EBA004EDF2B /* Barlow-Light.ttf */,
+				DB4A75012A924E6F004EDF2B /* Barlow-Bold.ttf */,
+				DB4A74FF2A924E52004EDF2B /* Barlow-Medium.ttf */,
+				DB4A74FD2A924E34004EDF2B /* Barlow-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +236,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4A75062A924EBA004EDF2B /* Barlow-Light.ttf in Resources */,
+				DB4A74FE2A924E34004EDF2B /* Barlow-Regular.ttf in Resources */,
+				DB4A75002A924E52004EDF2B /* Barlow-Medium.ttf in Resources */,
+				DB4A75022A924E6F004EDF2B /* Barlow-Bold.ttf in Resources */,
 				DB4A74F72A91FEB4004EDF2B /* Launch Screen.storyboard in Resources */,
 				DB4A74F02A91FB7C004EDF2B /* Preview Assets.xcassets in Resources */,
+				DB4A75042A924E85004EDF2B /* Barlow-SemiBold.ttf in Resources */,
 				DB4A74ED2A91FB7C004EDF2B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +254,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4A74EB2A91FB7A004EDF2B /* ContentView.swift in Sources */,
+				DB4A750D2A938AA0004EDF2B /* WelcomeTabItemView.swift in Sources */,
+				DB36C2E22A9FCE72000AD28B /* Merchant.swift in Sources */,
+				DB4A74EB2A91FB7A004EDF2B /* MainView.swift in Sources */,
+				DB36C2DE2A9FB842000AD28B /* ShopItem.swift in Sources */,
+				DB36C2EA2AA02D7E000AD28B /* FilterCardView.swift in Sources */,
+				DB36C2E42A9FCEB4000AD28B /* MerchantItemView.swift in Sources */,
+				DB36C2E82AA02C8D000AD28B /* Location.swift in Sources */,
+				DB36C2D42A9F29C6000AD28B /* Extenstions.swift in Sources */,
+				DB36C2D82A9F99DF000AD28B /* HomeTabView.swift in Sources */,
 				DB4A74E92A91FB7A004EDF2B /* CCCApp.swift in Sources */,
+				DB36C2E02A9FC43C000AD28B /* ShopItemView.swift in Sources */,
+				DB4A750F2A93B9B3004EDF2B /* MainViewViewModel.swift in Sources */,
+				DB36C2E62AA02AE8000AD28B /* LocationSelectorView.swift in Sources */,
+				DB36C2EC2AA02E31000AD28B /* FilterCardItemView.swift in Sources */,
+				DB36C2D62A9F5A76000AD28B /* HomeView.swift in Sources */,
+				DB36C2DC2A9FB7D3000AD28B /* HomeTabViewViewModel.swift in Sources */,
+				DB4A750B2A9277AD004EDF2B /* MainButton.swift in Sources */,
+				DB36C2DA2A9FAA61000AD28B /* ImageSliderTabItemView.swift in Sources */,
+				DB4A75112A93F968004EDF2B /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +403,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CCC/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CCC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +433,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CCC/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CCC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
